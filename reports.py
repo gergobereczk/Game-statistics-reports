@@ -12,15 +12,15 @@ def count_games(filename):
     #return (len(lines))
     return (len(open_file(filename)))
 
-def decide(year,filename):
+def decide(filename,year):
     open_file(filename)
     for i in range(len(open_file(filename))):
-        if open_file(filename) [i][2] == (str(year)):
+        if open_file(filename)[i][2] == (str(year)):
             return True
             break
-        else:
-            return False
-            break
+    else:
+        return False
+        
 
 def get_latest(filename):
     open_file(filename)
@@ -57,4 +57,3 @@ def get_line_number_by_title(filename,title):
 # get_latest("/home/gergo/Desktop/5 th week/game_stat.txt")
 # count_by_genre("/home/gergo/Desktop/5 th week/game_stat.txt","First-person shooter")
 # get_line_number_by_title("/home/gergo/Desktop/5 th week/game_stat.txt","Diablo III")
-

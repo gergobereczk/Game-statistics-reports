@@ -18,7 +18,6 @@ def export(resolution):
 # export(str(reports.count_by_genre("/home/gergo/Desktop/5 th week/game_stat.txt", "First-person shooter")))
 # export(str(reports.get_line_number_by_title("/home/gergo/Desktop/5 th week/game_stat.txt", "Diablo III")))
 
-
 def menu():
     switch_on = 1
     while switch_on == 1:

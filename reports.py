@@ -79,10 +79,6 @@ def when_was_top_sold_fps(filename):
     result = (max(sorterlist))
     return (int(fps[str(result)]))
             
-
-
-
-
 #get_genres("/home/gergo/Desktop/5 th week/game_stat.txt")
 
 #when_was_top_sold_fps("/home/gergo/Desktop/5 th week/game_stat.txt")

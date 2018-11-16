@@ -1,6 +1,5 @@
 import reports
 # Printing functions
-
 def menu():
     switch_on = 1
     while switch_on == 1:
@@ -66,6 +65,4 @@ def menu():
             exitQuestion = input("If would you like to ask another question please press 1 button and for exit push any other button: ")
             if exitQuestion != "1":
                 switch_on += 1
-
-
 menu()
